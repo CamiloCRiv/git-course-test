@@ -48,7 +48,14 @@ git commit lo envia a un repositorio local
 - git log --online nos trae los comit hechos pero de una forma mas simplificada
 - git reset --hard (agregamos el codigo del commit al que queremos volver)    nos lleva a una version de mi proyecto
 
+
+
 ¿git push para que es?
+
+git push sirve para ingresar los cambios en mi repositoryo al repositorio en la nube (ejemplo: a github)
+git pull es para traer el repositorio que hay en la nube a mi working directory
+
+NOTA: Hay cambios en el repositorio (el proyecto) que a veces se hacen directamente en la nube, ejemplo al modificar el archivo README desde github
 
 
 
