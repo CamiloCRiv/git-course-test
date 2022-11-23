@@ -6,7 +6,7 @@ gitHub es un gestor de repositorios, el cual contendra los archivos del proyecto
 GIT tiene 3 estados:
 
 1- WORKING DIRECTORY: Es donde trabajaremos con nuestros archivos
-2- STAGING AREA: Es donde estare agreagando los archivos que voy a preparar para el guardado (version 1, version 2, version 3...)
+2- STAGING AREA: Es donde estare agreagando los archivos que voy a preparar para el guardado (version 1, version 2, version 3...). "ES UN AREA TEMPORAL"
 3- Repository: Es el codigo que va a estar ya en el servidor 
 
 
@@ -31,5 +31,24 @@ COMANDOS BASICOS:
 - git diff (nombre archivo) sirve para ver las diferencias hechas en los archivos ¿antes de git add?
 
 - git checkout -- (nombre del archivo) -> git checkout -- index.html     este comando sirve para reversar cambios en el working area cuando he alterado alguno de los archivos
+
+
+
+
+
+
+BLUEWEB
+
+git commit lo envia a un repositorio local
+- git init solo se hace una vez y es para indicar que esta carpeta utilizara git, esto es para hacerle "seguimiento a la carpeta (proyecto) para saber si ha habido cambios
+
+- git status -s es par mostrar solo que archivos han sido modificados, eliminados o agregados ¿es lo mismo que sin -s?
+- git add es para indicar a que archivos les haremos "seguimiento"
+- los commit son los que nos sirven "para viajar en el tiempo" (son la foto que le tomamos al codigo)
+- git log --online nos trae los comit hechos pero de una forma mas simplificada
+- git reset --hard (agregamos el codigo del commit al que queremos volver)    nos lleva a una version de mi proyecto
+
+¿git push para que es?
+
 
 
