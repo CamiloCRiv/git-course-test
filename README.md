@@ -19,7 +19,7 @@ COMANDOS BASICOS:
 - git commit es para pasar el archivo del staging area al repositorio (CREA UN SNAPSHOT del codigo de staging area)
 - git push es para subirlo a un repositorio remoto (cuando el código se va  a suvir a un servidor, es para que los otros desarrolladores puedan acceder a este)
 - git pull trae los cambios que han hecho otros desarrolladores 
-- git clone me crea una copia del codigo que está en el servidor para yo poder trabajarlo en mi pc
+- git clone (ruta de mi repositorio de github)    me crea una copia del codigo que está en el servidor para yo poder trabajarlo en mi pc
 - git log es para ver el album de "fotos" (fotos que representan a como estaba mi codigo cuando se hizo cada commit, estas fotos tambien traen informacion adicional para poder saber quien la tomo (quien hizo el commit) y la fecha en que lo hizo )
 - git commit -m "mensaje que quiero dejar como comentario)", se hace un commit
 - .gitignore es un archivo que se crea en el editor, en este listaremos los archivos que desearemos ignorar
