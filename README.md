@@ -2,7 +2,22 @@
 Este es un proyecto de prueba creado con Git
 
 
+GIT tiene 3 estados:
 
+1- WORKING DIRECTORY: Es donde trabajaremos con nuestros archivos
+2- STAGING AREA: Es donde estare agreagando los archivos que voy a preparar para el guardado (version 1, version 2, version 3...)
+3- Repository: Es el codigo que va a estar ya en el servidor 
+
+
+COMANDOS BASICOS:
+
+- git init es como decirle a mi sistema operativo que en mi proyecto voy a empezar a utilizar git
+- git add es para pasar mis archivos del working directory a stagin area
+- git status es para ver en que estado están mis archivos, sea en working directory o incluso en staging area
+- git commit es para pasar el archivo del staging area al repositorio
+- git push es para subirlo a un repositorio remoto (cuando el código se va  a suvir a un servidor, es para que los otros desarrolladores puedan acceder a este)
+- git pull trae los cambios que han hecho otros desarrolladores 
+- git clone me crea una copia del codigo que está en el servidor para yo poder trabajarlo en mi pc
 
 
 
